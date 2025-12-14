@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+import './App.css';
 import { Theme } from './types';
 
 import Hero from './components/Hero';

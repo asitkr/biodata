@@ -65,7 +65,7 @@ const About: React.FC = () => {
               <div className="absolute inset-0 bg-blue-500 rounded-lg transform translate-x-3 translate-y-3 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
               <div className="relative rounded-lg overflow-hidden shadow-xl aspect-[3/4] md:aspect-auto md:h-[700px]">
                 <img
-                  src="../assests/p2.jpg"
+                  src="/assests/p2.jpg"
                   alt="About Me"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />
