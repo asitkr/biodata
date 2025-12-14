@@ -40,7 +40,7 @@ const Gallery: React.FC = () => {
   }, []);
 
   return (
-    <section className={`py-20 pt-10 px-6 relative h-screen w-full bg-slate-900/10 overflow-hidden`}>
+    <section id="gallery" className={`py-20 pt-10 px-6 relative h-screen w-full bg-slate-900/10 overflow-hidden`}>
       <div className="max-w-7xl mx-auto">
         <div className='w-full mb-10'>
           <h2 className={`text-4xl font-bold text-center dark:text-white text-gray-900`}>

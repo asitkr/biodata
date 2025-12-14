@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
               Biodata
             </h2>
             <p className="text-sm font-bold text-slate-800 dark:text-slate-100 mb-4 md:mb-6 text-center md:text-left">
-              Hi, <span className="text-blue-500">I welcome you</span>
+              Hi, <span className="text-blue-500">welcome you</span>
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 dark:text-white leading-tight">
               Ashit Kumar Sinha <br />

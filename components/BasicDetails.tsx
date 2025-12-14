@@ -5,10 +5,10 @@ import * as THREE from 'three';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import {
-    User, Flower, GraduationCap, Users,
-    Briefcase, Phone,
-    MapPinHouse,
-    UsersRound
+    User, Flower, GraduationCap,
+    Briefcase,
+    UsersRound,
+    ReceiptText
 } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -254,7 +254,7 @@ const BasicDetails: React.FC = () => {
                         </div>
                     </div>
                     <div className="w-full lg:w-2/5">
-                        <SectionHeader icon={UsersRound} title="Family Details" />
+                        <SectionHeader icon={ReceiptText} title="Family Details" />
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <DetailRow label="Family Type" value="Nuclear" />
                             <DetailRow label="Family Status:" value="Middle Class" />
