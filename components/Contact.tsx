@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900 dark:text-slate-200">Phone</h4>
-                    <p className="text-slate-600 dark:text-slate-400 text-sm md:text-base">+91 8002244469</p>
+                    <a href="tel:+918002244469" className="text-slate-600 dark:text-slate-400 text-sm md:text-base">+91 8002244469</a>
                   </div>
                 </div>
               </div>
