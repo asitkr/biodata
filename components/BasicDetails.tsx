@@ -254,7 +254,7 @@ const BasicDetails: React.FC = () => {
                         </div>
                     </div>
                     <div className="w-full lg:w-2/5">
-                        <SectionHeader icon={ReceiptText} title="Family Details" />
+                        <SectionHeader icon={ReceiptText} title="Family Background" />
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <DetailRow label="Family Type" value="Nuclear" />
                             <DetailRow label="Family Status:" value="Middle Class" />
