@@ -225,10 +225,10 @@ const Gallery: React.FC = () => {
   return (
     <>
       {/* FULLSCREEN GALLERY */}
-      <section className="fixed inset-0 w-screen h-screen bg-[#050816] overflow-hidden">
+      <section className="w-screen h-screen bg-[#050816] overflow-hidden">
         {/* HEADER */}
-        <div className="absolute top-8 left-0 right-0 z-10 text-center pointer-events-none">
-          <h2 className="text-4xl font-bold text-white">3D Gallery</h2>
+        <div className="text-center pointer-events-none">
+          <h2 className="text-4xl font-bold text-white">Gallery</h2>
           <p className="mt-2 text-gray-400">
             Click on any image to view in fullscreen
           </p>
