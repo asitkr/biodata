@@ -85,7 +85,7 @@ const Gallery: React.FC = () => {
   return (
     <>
       {/* FULLSCREEN GALLERY */}
-      <section className="relative w-screen h-screen bg-[#050816] overflow-hidden">
+      <section className="relative w-screen h-screen bg-slate-50 dark:bg-[#050816] overflow-hidden">
         {/* HEADER */}
         <div className="absolute top-6 left-0 right-0 z-10 text-center pointer-events-none px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
