@@ -175,7 +175,7 @@ const BasicDetails: React.FC = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <DetailRow label="Occupation" value="Software Engineer" />
                             <DetailRow label="Company Name" value="Corporate Infotech Pvt. Ltd." />
-                            <DetailRow label="Company Address" value="E-81, E Block, Sector 6, Noida, Uttar Pradesh 201301" />
+                            <DetailRow label="Company Address" value="Plot No. 36 & 37, Sector 138, Noida, UP-201305" />
                             <DetailRow label="Company Location" value="https://maps.app.goo.gl/KUk1M6oF72AmDiqb7" />
                             <DetailRow label="Current Location" value="Delhi" />
                         </div>
