@@ -173,7 +173,7 @@ const BasicDetails: React.FC = () => {
                         <div className="detail-section">
                         <SectionHeader icon={Briefcase} title="Professional Details" />
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            <DetailRow label="Occupation" value="Software Engineer" />
+                            <DetailRow label="Occupation" value="Frontend Developer" />
                             <DetailRow label="Company Name" value="Corporate Infotech Pvt. Ltd." />
                             <DetailRow label="Company Address" value="Plot No. 36 & 37, Sector 138, Noida, UP-201305" />
                             <DetailRow label="Company Location" value="https://maps.app.goo.gl/KUk1M6oF72AmDiqb7" />
@@ -233,7 +233,7 @@ const BasicDetails: React.FC = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <DetailRow label="Religion" value="Hindu" />
                             <DetailRow label="Caste / Gotra" value="Kurmi / Kashyap" />
-                            <DetailRow label="Sub Caste" value="Awadhiya Kurmi / Kurmi Kshatriya" fullWidth />
+                            <DetailRow label="Sub Caste" value="Awadhiya Kurmi" fullWidth />
                         </div>
                     </div>
                 </div>
